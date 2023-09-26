@@ -35,7 +35,7 @@ class Employee:
 
     def __str__(self):
         if (self.commission == ''):
-            return '{name} works on a {salary}.  Their total pay is {total}'.format(name = self.name, salary = self.salary, total = self.total)
+            return '{name} works on a {salary}.  Their total pay is {total}.'.format(name = self.name, salary = self.salary, total = self.total)
         return '{name} works on a {salary} {commission}  Their total pay is {total}.'.format(name = self.name, salary = self.salary, commission = self.commission, total = self.total)
 
 
